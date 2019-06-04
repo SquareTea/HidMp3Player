@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HidMp3V.2", "HidMp3V.2\HidMp3V.2.vbproj", "{7A5CE8FA-B901-4352-B0EF-8F839E10A730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A5CE8FA-B901-4352-B0EF-8F839E10A730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5CE8FA-B901-4352-B0EF-8F839E10A730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5CE8FA-B901-4352-B0EF-8F839E10A730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5CE8FA-B901-4352-B0EF-8F839E10A730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7350BA9-57F6-482C-A682-A7567FAB23DA}
+	EndGlobalSection
+EndGlobal

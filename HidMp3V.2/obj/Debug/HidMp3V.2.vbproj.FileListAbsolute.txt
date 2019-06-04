@@ -1,0 +1,17 @@
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.vbprojAssemblyReference.cache
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V._2.Form1.resources
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V._2.Resources.resources
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.vbproj.GenerateResource.cache
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.vbproj.CoreCompileInputs.cache
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\bin\Debug\HidMp3V.2.exe.config
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\bin\Debug\HidMp3V.2.exe
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\bin\Debug\HidMp3V.2.pdb
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\bin\Debug\HidMp3V.2.xml
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.exe
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.xml
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.pdb
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\bin\Debug\Interop.WMPLib.dll
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\Interop.WMPLib.dll
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hidden\Source\Repos\HidMp3V.2\HidMp3V.2\obj\Debug\HidMp3V.2.vbproj.ResolveComReference.cache
