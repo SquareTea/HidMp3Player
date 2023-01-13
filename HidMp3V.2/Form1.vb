@@ -39,6 +39,9 @@
         pro.Maximum = AxWindowsMediaPlayer1.currentMedia.duration
         pro.Value = AxWindowsMediaPlayer1.Ctlcontrols.currentPosition
         TrackBar2.Value = AxWindowsMediaPlayer1.Ctlcontrols.currentPosition
+        Label1.Text = AxWindowsMediaPlayer1.currentMedia.name & " " & AxWindowsMediaPlayer1.Ctlcontrols.currentPositionString
+
+
         If TextBox1.Text = "xexit" Then
             End
         ElseIf TextBox1.Text = "listclear" Then
@@ -135,22 +138,27 @@ ErrorHandler:
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Dim inlist1 As Integer
 
-
-
-        inlist1 = ListBox1.SelectedIndex
-
-        ListBox1.SelectedIndex = inlist1 + 1
-        TextBox1.Text = ListBox1.Text
-        If Button7.Text = "RepeatON" Then
-            Timer1.Enabled = True
-            Timer1.Interval = 100
-
-            Button7.Text = "RepeatON"
+        If Button11.Text = "ShuffleON" Then
+            inlist1 = ListBox1.SelectedIndex
+            Dim rnd As New Random
+            On Error Resume Next
+            Dim randomIndex As Integer = rnd.Next(0, ListBox1.Items.Count - 1)
+            TextBox1.Text = ListBox1.Items.Item(randomIndex)
+            ListBox1.SelectedIndex = randomIndex
         Else
-            Timer1.Enabled = False
-            Timer1.Interval = 100
+            inlist1 = ListBox1.SelectedIndex
 
-            Button7.Text = "RepeatOFF"
+            ListBox1.SelectedIndex = inlist1 + 1
+            TextBox1.Text = ListBox1.Text
+
+        End If
+        Exit Sub
+ErrorHandler:
+        If AxWindowsMediaPlayer1.playState = WMPLib.WMPPlayState.wmppsStopped Then
+
+
+            ListBox1.SelectedIndex = 0
+            TextBox1.Text = ListBox1.Text
         End If
     End Sub
 
@@ -281,7 +289,13 @@ ErrorHandler:
             On Error Resume Next
             Dim randomIndex As Integer = rnd.Next(0, ListBox1.Items.Count - 1)
             TextBox1.Text = ListBox1.Items.Item(randomIndex)
+            ListBox1.SelectedIndex = randomIndex
+
         End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 End Class
 
